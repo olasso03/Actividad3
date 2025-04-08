@@ -5,8 +5,9 @@ class RegistroVisitante {
         // Declaración de variables con tipos de datos primitivos
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el nombre del visitante: ");
         String nombre = scanner.nextLine();  // String (no primitivo, pero necesario para texto)
+        System.out.print("Ingrese el nombre del visitante: ");
+        //System.out.print("Ingrese el nombre del visitante: ");
 
         System.out.print("Ingrese la edad del visitante: ");
         byte edad = scanner.nextByte();  // byte (edad normalmente cabe en este rango)
